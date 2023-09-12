@@ -1,0 +1,90 @@
+body{
+  background-color: #FBE4E3;
+}
+#kalvium
+{
+  height: 100px;
+  width: 200px;
+  margin-left: 100px;
+}
+#kalvi{
+  position: absolute;
+  margin-top: -37px;
+  margin-left: 200px;
+  font-size: smaller;
+}
+#student{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 1100px;
+  font-size: medium;
+}
+#courses
+{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 1200px;
+  font-size: medium;
+}
+.user{
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-left: 770px;
+  margin-top:52px;
+}
+table{
+  width: 1000px;
+  
+  margin: auto;
+  text-align: center;
+  margin-top: 80px;
+  border-bottom: 2px solid #D73131;
+  box-shadow: 10px 10px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+/* th{
+  text-align: left;
+} */
+table , th ,td {
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+th,td
+{
+  padding: 10px;
+}
+tr:nth-child(even)
+{
+ background-color: white;
+}
+tr:nth-child(odd)
+{
+ background-color: #F3F3F3;
+}
+#first{
+  background-color: #D73131;
+  color: white;
+
+  
+}
+caption{
+  padding: 10px;
+  font-size: large;
+
+}
+#student
+{
+  color: #D73131;
+}
+#courses
+{
+  color:  #D73131;
+}
+#lunch
+{
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  font-size: 20px;
+  width: 80px;
+}
